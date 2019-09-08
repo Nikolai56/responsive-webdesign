@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Piano buttons</title>
+		<style>
+#pianowhite {
+    border: 1px solid black;
+    height: 160px;
+    line-height: 160px;
+    width: 35px;
+    background-color: #ddd;
+    box-shadow: 5px 5px 5px #888;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: -1px;
+    margin-top: 10px;
+    margin-right: -2px;
+    display: inline-block;
+}
+#pianowhite:hover {
+    box-shadow: 5px 5px 5px #888 inset;
+}
+#pianoblack {
+    border: 3px solid black;
+    height: 85px;
+    line-height: 85px;
+    width: 20px;
+    background-color: #222;
+    box-shadow: 2px -7px 5px #888 inset;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: -14px;
+    margin-right: -10px;
+    position: absolute;
+    z-index: 1;
+    display: inline-block;
+}
+#pianoblack:hover {
+    background-color: #000;
+    box-shadow: 3px 0px 5px #888 inset;
+}
+#whitetext {
+    color: white;
+}
+	</style>
+	</head>
+	<body>
+        <div id="pianowhite"></div>
+        <div id="pianoblack"><span id="whitetext"></span></div>
+        <div id="pianowhite"></div>
+        <div id="pianoblack"><span id="whitetext"></span></div>
+        <div id="pianowhite"></div>
+        <div id="pianowhite"></div>
+        <div id="pianoblack"><span id="whitetext"></span></div>
+        <div id="pianowhite"></div>
+        <div id="pianoblack"><span id="whitetext"></span></div>
+        <div id="pianowhite"></div>
+        <div id="pianoblack"><span id="whitetext"></span></div>
+        <div id="pianowhite"></div>
+	</body>
+</html>
