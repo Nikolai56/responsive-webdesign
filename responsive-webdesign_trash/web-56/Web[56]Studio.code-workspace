@@ -1,0 +1,25 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "C:\\Users\\stepenko_ds\\pyrocoder.github.io"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\scrimba"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\stk"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\codecademy"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\freecodecamp"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "stk"
+  }
+}
