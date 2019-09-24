@@ -1,5 +1,6 @@
 
 .places
+   margin-bottom: 131px
    &__caption
       display: flex
       flex-wrap: wrap
@@ -21,6 +22,18 @@
       grid-template-columns: repeat(6, 1fr)
       grid-gap: 10px
    &__card
+      position: relative
+      overflow: hidden
+      &::after
+         display: block
+         content: ''
+         width: 100%
+         height: 100%
+         background-color: rgba(21, 24, 36, 0.4)
+         position: absolute
+         top: 0
+         left: 0
+         z-index: 2         
       &:hover, &-pic
          transform: scale(1.05)
       &-title
@@ -33,11 +46,16 @@
          z-index: 3
       &_size_lg
          grid-column: span 3
+      &_size_sm
+         grid-column: span 2
       &-pic
          width: 100%
-         height: 354px
-         object-fit: cover
          transition: .15s all
+         object-fit: cover
+         &_size_lg
+            height: 354px
+         &_size_sm
+            height: 283px
       &-link
          position: absolute
          top: 0
