@@ -1,0 +1,418 @@
+@import "bourbon"
+@import "vars.sass"
+@import "app/libs/owl.carousel/dist/assets/owl.carousel.min"
+
+
+body
+  position: relative
+  min-width: 320px
+  font-size: 16px
+  line-height: 1.5
+  font-family: "RobotoRegular", sans-serif
+  overflow-x: hidden
+  color: #111
+
+.hidden
+  display: none
+
+a
+  outline: none !important
+
+strong,
+b
+  font-family: "RobotoBold", sans-serif
+  font-weight: normal
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.button
+  font-family: "RobotoCondensedBold", sans-serif
+  font-weight: normal
+  text-transform: uppercase
+
+
+.text-left
+  text-align: left
+
+.text-right
+  text-align: right
+
+.text-center
+  text-align: center
+
+.top-line
+  position: relative
+  z-index: 2
+  background-color: $main-color
+  text-align: center
+  border-bottom: lighten($main-color, 6%) solid 1px
+  a
+    color: #fff
+  ul, li
+    list-style-type: none
+    margin: 0
+    padding: 0
+  .sf-menu
+    margin: 0 auto -6px
+    float: none
+    display: inline-block
+    font-family: "RobotoCondensedRegular", sans-serif
+    font-size: em(15px)
+    background-color: $main-color
+    a
+      border-bottom: lighten($main-color, 5%) 1px solid
+      border-left: transparent 1px solid
+      border-top: none
+    >li
+      background-color: transparent
+      &.active
+        background-color: darken($main-color, 3%)
+        >a
+          color: $accent-color
+      >a
+        color: #fff
+        border: none
+        padding: 25px 28px
+        .fa
+          font-size: 11px
+          margin-left: 2px
+      &:hover
+        background-color: darken($main-color, 3%)
+        >a
+          color: $accent-color
+
+      ul
+        li
+          background-color: $main-color
+          text-align: left
+          &:hover
+            >a
+              color: $accent-color
+          a
+            padding: 10px 20px
+            color: #fff
+
+
+// Top panel
+
+.top-panel
+  background-color: rgba(lighten($main-color, 2%), .8)
+  color: #fff
+  padding: 50px 0
+  position: absolute
+  width: 100%
+  z-index: 1
+  box-shadow: rgba(#fff, .03) 0 10px 0 0
+  &-content
+    position: relative
+    z-index: 1
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    background-image: url(../img/top-panel-bg.jpg)
+    opacity: .16
+  &-box
+    h4
+      font-family: "RobotoCondensedRegular", sans-serif
+      font-size: em(15px)
+      margin-top: 0
+      position: relative
+      &::after
+        content: ''
+        position: absolute
+        left: 0
+        bottom: -9px
+        height: 1px
+        width: 100%
+        background-color: $accent-color
+        opacity: .4
+    ul,
+    li
+      margin: 0
+      padding: 0
+      list-style-type: none
+    li
+      position: relative
+      display: inline-block
+      max-width: 48%
+      opacity: .4
+      font-size: em(12px)
+      padding: 0 10px 0 22px
+      &:only-child
+        max-width: 100%
+      .fa
+        position: absolute
+        top: 6px
+        left: 0
+        font-size: 16px
+
+
+
+.logo
+  position: relative
+  top: 3px
+  img
+    max-width: 100%
+
+.top-phone
+  margin-top: -3px
+  font-family: "RobotoCondensedRegular", sans-serif
+  font-size: em(19px)
+  span
+    font-size: em(12px)
+    opacity: .3
+
+.top-email
+  font-size: em(14px)
+  a
+    color: #fff
+    text-decoration: underline
+  span
+    opacity: .3
+
+.top-email,
+.top-phone
+  .fa
+    margin-right: 3px
+
+.button
+  position: relative
+  color: #111
+  background-color: $accent-color
+  border-radius: 2px
+  border: none
+  font-size: em(16px)
+  padding: 10px 35px
+  transition: background-color .25s ease
+  &:hover
+    background-color: lighten($accent-color, 12%)
+  &:active
+    background-color: darken($accent-color, 10%)
+
+  &::after
+    content: ''
+    position: absolute
+    bottom: 0
+    left: 0
+    overflow: hidden
+    height: 3px
+    background-color: darken($accent-color, 10%)
+    width: 100%
+    border-bottom-right-radius: 2px
+    border-bottom-left-radius: 2px
+  &:hover,
+  &:focus
+    text-decoration: none
+    color: #222
+
+  &-small
+    font-size: em(14px)
+    padding: 6px 18px
+    &::after
+      height: 2px
+
+.top-button
+  margin-top: 22px
+
+.slider-wrap
+  .owl-dots
+    position: absolute
+    bottom: 50px
+    width: 100%
+    text-align: center
+    .owl-dot
+      display: inline-block
+      margin: 0 3px
+      width: 14px
+      height: 14px
+      background-color: darken($main-color, 10%)
+      border-radius: 7px
+      cursor: pointer
+      transition: background-color .25s ease
+      &.active
+        background-color: $accent-color
+  .slider-nav-container
+    position: relative
+  .slider-nav
+    position: absolute
+    width: 100%
+    z-index: 2
+    color: #fff
+    font-size: em(36px)
+    div
+      top: 400px
+      cursor: pointer
+      position: absolute
+      &:last-child
+        right: 0
+
+.slider
+  position: relative
+  top: 0
+  width: 100%
+  overflow-x: hidden
+  .slide-wrap
+    float: left
+    &.active
+      h2
+        opacity: 1
+        left: 0
+      p
+        opacity: .75
+        left: 0
+      .slide-img-wrap
+        opacity: 1
+        transform: scale(1)
+
+  .slide
+    padding-top: 220px
+    padding-bottom: 130px
+    position: relative
+    color: #fff
+    h2
+      font-family: "RobotoCondensedLight", sans-serif
+      font-size: em(48px)
+      margin-top: 0
+      margin-bottom: 20px
+      line-height: em(19px)
+      position: relative
+      left: 100px
+      opacity: 0
+      transition: all 1s ease
+      &:first-line
+        color: $accent-color
+    p
+      font-family: "RobotoLight", sans-serif
+      //opacity: .75
+      margin-bottom: 40px
+      position: relative
+      left: 50px
+      opacity: 0
+      transition: all 1.5s ease
+      transition-delay: .15s
+    &-bg
+      position: absolute
+      top: 0
+      right: 0
+      bottom: 0
+      left: 0
+      background-size: cover
+      &::before
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        background-color: $main-color
+        opacity: .85
+    &-content
+      position: relative
+      z-index: 1
+      padding-top: 80px
+
+.slide-img-wrap
+  padding-top: 12px
+  opacity: 0
+  transform: scale(.8)
+  transition: all 1s ease
+  transition-delay: .25s
+  img
+    max-width: 100%
+
+.mobile-mnu
+  position: relative
+  z-index: 2
+  padding: 7px 15px 5px 15px
+  background-color: $accent-color
+  cursor: pointer
+  color: $main-color
+  >b
+    display: block
+    text-align: center
+    font-family: "RobotoRegular", sans-serif
+    font-size: em(15px)
+  .toggle-mnu
+    display: block
+    width: 28px
+    height: 28px
+    float: left
+    span:after, span:before
+      content: ""
+      position: absolute
+      left: 0
+      top: 9px
+
+    span:after
+      top: 18px
+
+    span
+      position: relative
+      display: block
+
+    span, span:after, span:before
+      width: 100%
+      height: 2px
+      background-color: $main-color
+      transition: all 0.3s
+      backface-visibility: hidden
+      border-radius: 2px
+
+
+    &.on span
+      background-color: transparent
+
+    &.on span:before
+      transform: rotate(45deg) translate(-1px, 0px)
+
+    &.on span:after
+      transform: rotate(-45deg) translate(6px, -7px)
+
+.sect-teaser
+  padding: 28px 0 10px
+  background-color: $main-color
+  color: #fff
+
+.teaser
+  &-item
+    display: table-row
+    >div
+      padding-bottom: 18px
+  &-count
+    display: table-cell
+    vertical-align: middle
+    &-wrap
+      position: relative
+      width: 43px
+      height: 43px
+    .fa::before
+      font-size: 48px
+      color: lighten($main-color, 10%)
+    .teaser-number
+      position: absolute
+      top: 8px
+      width: 100%
+      font-family: "RobotoCondensedBold", sans-serif
+      font-size: 22px
+      text-align: center
+      color: $accent-color
+  &-text
+    vertical-align: middle
+    font-family: "RobotoCondensedLight", sans-serif
+    line-height: 20px
+    padding-left: 15px
+    opacity: .28
