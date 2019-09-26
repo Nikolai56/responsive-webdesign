@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AAOA,AAIE,QAJM,AAEN,cAAc,AAEb,UAAU,CAJb,QAAQ,AAEN,cAAc,AAGb,OAAO,AACR,CACC,UAAU,CAAE,GAA4B,CAMxC,AAbH,AASG,QATK,AAEN,cAAc,AAEb,UAAU,AAKT,cAAc,CATlB,QAAQ,AAEN,cAAc,AAGb,OAAO,AAIN,cAAc,AACf,CACC,UAAU,CAAE,IAAI,CAChB,AAZJ,AAmBE,QAnBM,AAiBN,iBAAiB,CAEjB,SAAS,AACT,CACC,OAAO,CAAE,gBAAgB,CACzB,AAtBH,AAuBG,QAvBK,AAiBN,iBAAiB,CAMd,UAAU,CAAG,SAAS,AACzB,CACC,MAAM,CAAE,eAAe,CACvB,MAAM,CAAE,eAAe,CACvB",
+    "sources": [
+        "../autoheight/jquery.mmenu.autoheight.scss",
+        "../../css/_imp/_import.scss",
+        "../../css/_imp/_variables.scss",
+        "../../css/_imp/_mixins_colors.scss",
+        "../../css/_imp/_mixins_general.scss",
+        "../../css/_imp/_mixins_sizing.scss"
+    ],
+    "names": [],
+    "file": "jquery.mmenu.autoheight.css"
+}
