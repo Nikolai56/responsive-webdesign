@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="shortcut icon" href="img/favicon/favicon.png" type="image/x-icon">
+</head>
+<body>
+
+    <!-- HEADER -->
+<header>
+    <div class="container">
+        <div class="header">
+            <div class="header__elem">
+                <a class="header__logo">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="header__elem">
+                <img src="img/phone.png" class="phone_thumb">
+                <div class="header__phone-wrap">
+                    <a href="tel:+78124456730" class="header__link"><p>+7 (812)&nbsp;445&nbsp;67&nbsp;30</p></a>
+                    <span>ежедневно с&nbsp;9.00&nbsp;до&nbsp;21.00</span>
+                </div>
+            </div>    
+            <div class="header__elem">
+                <img src="img/calculator.png" class="calc_thumb">
+                <a href="#!" class="header__link calc_btn">Калькулятор</a>
+            </div>
+            <div class="header__elem">
+                <img src="img/account.png" class="cab_thumb">
+                <a href="#!" class="header__link cab_btn">Личный&nbsp;кабинет</a>
+            </div>        
+        </div> 
+    </div>
+    <nav>
+        <div class="container">
+            <ul class="menu">
+                <li class="menu__item"><a href="#!" class="menu__link">Продукция</a></li>
+                <li class="menu__item"><a href="#!" class="menu__link">Услуги</a></li>
+                <li class="menu__item"><a href="#!" class="menu__link">Оплата&nbsp;и&nbsp;цены</a></li>
+                <li class="menu__item"><a href="#!" class="menu__link">Акции</a></li>
+                <li class="menu__item"><a href="#!" class="menu__link">О&nbsp;компании</a></li>
+                <li class="menu__item"><a href="#!" class="menu__link">Для&nbsp;дилеров</a></li>
+                <li class="menu__item"><a href="#!" class="menu__link">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+</header>
+
+<!-- PROMO -->
+<section class="promo">
+
+    <div class="container">
+        <div class="promo__wrap">
+            
+            <div class="promo__left">
+                <div class="promo__protect">
+                        Защитите<br>
+                        своих детей
+                </div>
+                <br>
+                <div class="promo__misc">
+                    <img src="img/svg/panorama_fish_eye_24px.svg" alt="">
+                    <a href="#!" class="promo__link">Аксессуары для детской безопасности</a>
+                </div>
+
+                <div class="arrows promo__arrows">
+                    <div class="arrows__square">
+                        <a href="#!" class="arrows__left"></a>
+                    </div>
+                    <div class="arrows__square">
+                        <a href="#!" class="arrows__right"></a>
+                    </div>               
+                </div>
+            </div>
+    
+            <div class="promo__card">
+                <p class="promo__card-free">
+                    Бесплатный
+                    <br>вызов замерщика</p>
+                <p class="promo__card-spec">
+                    Наши специалисты свяжутся с вами
+                    <br>в ближайшее время</p>
+        
+                <form id="calculation-form" class="promo__card-form" action="#">
+                    <input type="name" required placeholder="Как Вас Зовут?" type="text">
+                    <input type="phone" required placeholder="+7(ХХХ) ХХХ - ХХ - ХХ">
+                    <input type="address" required placeholder="Адрес">
+        
+                    <button class="button button_submit">Вызвать</button>
+                </form>
+                <div class="promo__card-policy">Нажимая кнопку, вы соглашаетесь с условиями <a class="promo__card-policy-link">Политики конфиденциальности</a></div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- PRODUCTS -->
+<section class="products">
+    <p class="heading">Наша продукция</p>
+
+    <div class="container">
+        <div class="products__wrap">
+            <a href="#!" class="products__elem"><img src="img/Okna.png">Пластиковые&nbsp;окна</a>
+            <a class="products__elem"><img src="img/Dveri.png">Пластиковые&nbsp;двери</a>
+            <a class="products__elem"><img src="img/Zaluzi-1.png">Жалюзи</a>
+            <a class="products__elem"><img src="img/Rolety.png">Роллеты</a>
+        </div>
+        <div class="products__wrap">    
+            <a class="products__elem"><img src="img/Steklopaket.png">Стеклопакеты</a>
+            <a class="products__elem"><img src="img/Osteklenie_lodziy.png">Остекление&nbsp;лоджий</a>
+            <a class="products__elem"><img src="img/Lodziy-1.png">Утепление&nbsp;лоджий</a>
+            <a class="products__elem"><img src="img/potolok_1-1.png">Натяжные&nbsp;потолки</a>
+        </div>
+        
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects">
+    <div class="container">
+        <p class="heading">Наши проекты</p>
+
+        <div class="projects__wrap">
+
+            <div class="projects__left"> 
+
+                <a href="#!" class="projects__elem active"><img class="projects__thumb" src="img/Okna.png">Окна<img src="img/svg/chevron_right_24px.svg" class="projects__arr-right-sm"></a>
+                <a href="#!" class="projects__elem"><img class="projects__thumb" src="img/Dveri.png">Двери</a>
+                <a href="#!" class="projects__elem"><img class="projects__thumb" src="img/Zaluzi-1.png">Жалюзи</a>
+                <a href="#!" class="projects__elem"><img class="projects__thumb" src="img/Rolety.png">Роллеты</a>
+                <a href="#!" class="projects__elem"><img class="projects__thumb" src="img/Steklopaket.png">Стеклопакеты</a>
+                <a href="#!" class="projects__elem"><img class="projects__thumb" src="img/Osteklenie_lodziy.png">Остекление&nbsp;лоджий</a>
+                <a href="#!" class="projects__elem"><img class="projects__thumb" src="img/Lodziy-1.png">Утепление&nbsp;лоджий</a>
+                <a class="projects__elem"><img class="projects__thumb" src="img/potolok_1-1.png">Натяжные&nbsp;потолки</a>
+
+            </div>
+            
+            <div class="project__right">
+
+                <div class="projects__right-wrap">
+
+                    <div class="projects__slider"> 
+                       
+                        <div class="arrows projects__arrows">
+                            <div class="arrows__square">
+                                <a href="#!" class="arrows__left"></a>
+                            </div>
+                            <div class="arrows__square">
+                                <a href="#!" class="arrows__right"></a>
+                            </div>               
+                        </div>
+                    </div>
+
+                    <div class="projects__works-done">                
+                        <p class="projects__heading-works">Выполненные работы</p>
+                        <ul class="works-list">
+                            <li class="projects__list-item">Демонтаж старых окон</li>
+                            <li class="projects__list-item">Установка  пластиковых<br>окон Forte 58, 3 камеры,<br> ширина 58</li>
+                            <li class="projects__list-item">Установка подоконников</li>
+                            <li class="projects__list-item">Отделка  откосов</li>
+                            <li class="projects__list-item"><div><span>Итого:</span></div><div>58 350 ₽</div></li>
+                        </ul>
+                    </div>
+    
+                </div>
+
+                <div class="projects__comments">
+                    <img src="img/camera-banner7-img3.jpg">
+                    <div class="projects__comments-spacer"></div>
+
+                    <div class="projects__comment">Спасибо большое впервую очередь бригаде № 4 Прохорову Андрею за отлично выполненую работу. Сделано все аккуратно, професионально. И спасибо всему коллективу фирмы окна Форте. Спасибо девушкам менеджерам очень приятные, доброжелательные
+                        <p>Наталья</p>                    
+                        <div class="projects__comment-quote"></div>
+                    </div>
+                </div>
+            </div>             
+        </div>
+    </div>
+</section>
+
+<!-- COSTS -->
+<section class="calc">
+    <div class="container">
+        <p class="heading">Узнайте стоимость работ</p>
+        <div class="calc__wrapper">
+
+            <div class="calc__left">
+
+                <p class="heading heading_blue-md">Выберите тип продукции</p>
+    
+                <form class="form form_dropdown" action="">
+                    <select name="Тип продукции" id="">
+                        <option value="Окна">Окна</option>
+                        <option value="Двери">Двери</option>
+                        <option value="Жалюзи">Жалюзи</option>
+                        <option value="Роллеты">Роллеты</option>
+                        <option value="Натяжные потолки">Натяжные потолки</option>
+                    </select>
+                </form>
+                
+                <img src="img/lay1-thumb.png">
+                <img src="img/lay2-thumb.png">
+                <img src="img/lay3-thumb.png">
+                <img src="img/lay4-thumb.png">
+                
+                <p class="heading heading_blue-md">Характеристики</p>
+                
+                <ul class="calc__details">
+                    <li>Тип профиля</li>
+                    <li>
+                        <form class="form form_dropdown" action="">
+                            <select size="1">
+                                <option value="Forte_58">Forte 58</option><option value="Forte_70">Forte 70</option><option value="Ivaper_62">Ivaper 62</option><option value="Ivaper_70">Ivaper 70</option><option value="Ivaper_74">Ivaper 74</option>
+                            </select>
+                        </form>
+                    </li>
+                </ul>
+                <ul class="calc__details">
+                    <li>Ширина подоконника</li>
+                    <li>
+                        <form class="form form_dropdown" action="">
+                            <select size="1">
+                                <option value="none">Нет</option><option value="w150">150мм</option><option value="w200">200мм</option><option value="w250">250мм</option><option value="w300">300мм</option><option value="w350">350мм</option><option value="w400">400мм</option><option value="w450">450мм</option><option value="w500">500мм</option><option value="w550">550мм</option><option value="w600">600мм</option>
+                            </select>
+                        </form>
+                    </li>
+                </ul>
+                <ul class="calc__details">
+                    <li>Ширина отлива</li>
+                    <li>                   
+                        <form class="form form_dropdown" action="">
+                            <select size="1">
+                                <option value="none">Нет</option><option value="w0_100">менее 100мм</option><option value="w100_150">100-150мм</option><option value="w150_200">150-200мм</option><option value="w200_250">200-250мм</option><option value="w250_400">250-400мм</option>
+                            </select>
+                        </form>
+                    </li>
+                </ul>
+
+                <input type="checkbox">Монтаж<input type="checkbox">Отделка откоса
+            </div>
+    
+            <div class="calc__right">
+                <p>Задайте параметры</p>
+                <p>Нажмите на створку для выбора типа открывания</p>
+                <p><input type="text" placeholder="1500">мм</p>
+                <div>
+                    <div><input class="VERTICAL" type="text" placeholder="1500">мм</div>
+                    <div><img src="">Поворотная вправо<img src="">Поворотно-откидная левая</div>
+                </div>
+                <button>Добавить в заказ</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+   
+        <!-- <div class="wincalc-module-body">
+            <select size="1">
+                <option value="windows">Окна</option>
+                <option value="doors">Балконные двери</option>
+            </select>
+        </div>
+    
+    
+        <div class="box options-block">
+            <h1><span>Характеристики</span></h1>
+            <div class="wincalc-child-modules">
+                <div class="wincalc-combo-selector-module">
+                    <h1>Тип профиля</h1>
+                    <div class="wincalc-module-body">
+                        <select size="1">
+                            <option value="Forte_58">Forte 58</option>
+                            <option value="Forte_70">Forte 70</option>
+                            <option value="Ivaper_62">Ivaper 62</option>
+                            <option value="Ivaper_70">Ivaper 70</option>
+                            <option value="Ivaper_74">Ivaper 74</option>
+                        </select>
+                    </div>
+                    <div class="wincalc-clear"></div>
+                </div>
+                <div class="wincalc-combo-selector-module">
+                    <h1>Ширина подоконника</h1>
+                    <div class="wincalc-module-body">
+                        <select size="1">
+                            <option value="none">Нет</option>
+                            <option value="w150">150мм</option>
+                            <option value="w200">200мм</option>
+                            <option value="w250">250мм</option>
+                            <option value="w300">300мм</option>
+                            <option value="w350">350мм</option>
+                            <option value="w400">400мм</option>
+                            <option value="w450">450мм</option>
+                            <option value="w500">500мм</option>
+                            <option value="w550">550мм</option>
+                            <option value="w600">600мм</option>
+                        </select>
+                    </div>
+                    <div class="wincalc-clear"></div>
+                </div>
+                <div class="wincalc-combo-selector-module">
+                    <h1>Ширина отлива</h1>
+                    <div class="wincalc-module-body">
+                        <select size="1">
+                            <option value="none">Нет</option>
+                            <option value="w0_100">менее 100мм</option>
+                            <option value="w100_150">100-150мм</option>
+                            <option value="w150_200">150-200мм</option>
+                            <option value="w200_250">200-250мм</option>
+                            <option value="w250_400">250-400мм</option>
+                        </select>
+                    </div>
+                    <div class="wincalc-clear"></div>
+                </div>
+                <div class="wincalc-combo-selector-module">
+                    <h1>Монтаж</h1>
+                    <div class="wincalc-module-body">
+                        <select size="1">
+                            <option value="not">Да</option>
+                            <option value="wood">Нет</option>
+                        </select>
+                    </div>
+                    <div class="wincalc-clear"></div>
+                </div>
+                <div class="wincalc-combo-selector-module">
+                    <h1>Отделка откоса</h1>
+                    <div class="wincalc-module-body">
+                        <select size="1">
+                            <option value="not">Да</option>
+                            <option value="gor">Нет</option> -->
+
+
+<!-- FACTS -->
+<section class="facts">
+    <div class="container">
+                
+        <p>За более чем два десятилетия успешной работы, Forte из небольшой компании сумела стать одним из крупных оконных предприятий. Уже много лет мы занимаем лидирующее положение на рынке светопрозрачных конструкций Санкт-Петербурга и работаем во всех его сегментах. </p>
+        <div class="facts__counter">
+            <p>Сегодня</p>
+            <div><input type="text"></div>
+            <div><input type="text"></div>
+            <div><input type="text"></div>
+            <div><input type="text"></div>
+            <div><input type="text"></div>
+            <div><input type="text"></div>
+            <div><input type="text"></div>
+            <p>завершенных проектов</p>
+        </div>
+        <div>
+            <div>20 лет на рынке светопрозрачных конструкций</div>
+            <div>8 точек продаж в Санкт-Петербурге и Карелии</div>
+            <div>100 квалифицированных сотрудников</div>
+        </div>
+        <p>Компания Forte входит в «Топ-20» лучших оконных компаний России</p>
+        <div><img src=""><img src=""><img src=""><img src=""><img src=""></div>
+        <p>Компания Forte входит в «Топ-20» лучших оконных компаний России</p>
+        <div>ЖК «Северная долина»</div>
+        <div>ЖК «Чистое небо»</div>
+        <div>ЖК «Семь столиц. Лондон»</div>
+        <div>ЖК «Легенда Комендантского»</div>
+
+    </div>
+</section>
+
+<section class="call-worker">
+    <div class="container">
+        <p>Бесплатный вызов замерщика</p>
+        <p>Наши специалисты свяжутся с вами в ближайшее время</p>
+        <form action="">
+            <input type="text" placeholder="Как Вас зовут?"><input type="text" placeholder="+7 (ХХХ) - ХХ - ХХ"><input type="text" placeholder="Адрес">
+        </form>
+        <button>Вызвать</button>
+        <p>Нажимая кнопку, вы соглашаетесь с условиями Политики конфиденциальности</p>
+    </div>
+</section>
+
+<section class="specs">
+    <div class="container">
+        <p>Наши специалисты</p>
+        <div>
+            Константин Константинопольский
+            <p>Должность специалиста</p>
+            <p>Стаж 15 лет</p>
+        </div>
+        <div>
+            Константин Константинопольский
+            <p>Должность специалиста</p>
+            <p>Стаж 15 лет</p>
+        </div>
+        <div>
+            Константин Константинопольский
+            <p>Должность специалиста</p>
+            <p>Стаж 15 лет</p>
+        </div>
+        <div class="arrows"></div>
+    </div>
+</section>
+
+<section class="advant">
+    <div class="container">
+        <a href="">
+            <img src="" alt="">
+            <p>Собственное производство</p>
+            <p>Предлагаем качественную продукцию напрямую от производителя</p>
+        </a>
+        <a href="">
+            <img src="" alt="">
+            <p>Цены от производителя</p>
+            <p>Стоимость м2 окна от 2 000 руб</p>
+        </a>
+        <a href="">
+            <img src="" alt="">
+            <p>Нестандартные решения</p>
+            <p>Привлекательные предложения на нетиповые окна</p>
+        </a>
+        <a href="">
+            <img src="" alt="">
+            <p>Розничные продажи</p>
+            <p>Мы открыли собственную сеть розничных продаж</p>
+        </a>
+        
+        <a href="">
+            <img src="" alt="">
+            <p>Гарантийное обслуживание</p>
+            <p>Не прекращаем поддержку после продажи и монтажа продукции</p>
+        </a>
+        
+        <a href="">
+            <img src="" alt="">
+            <p>Специальные предложения</p>
+            <p>Уникальные цены для постоянных клиентов и заказчиков одного окна</p>
+        </a>
+        
+    </div>
+</section>
+
+<section class="map">
+    <div class="container">
+        <div class="map__contact-form">
+            <p>Контакты</p>
+            <ul>
+                <li>
+                    <img src="" alt="">
+                    <p>Центральный офис</p>
+                    <p>г. Санкт-Петербург,
+                        ул. Глиняная, д. 19, к.1, лит. А</p>
+                </li>
+                <li>
+                    <img src="" alt="">
+                    <p>С 9:00 до 19:00</p>
+                    <p>Выходной: Сб., Вс.</p>
+                </li>
+                <li>
+                    <img src="" alt="">
+                    <p>+7 (812) 445-67-24</p>
+                    <p></p>
+                </li>
+                <li>
+                    <img src="" alt="">
+                    <p>sales@okna-forte.ru/p>
+                    <p></p>
+                </li>
+            </ul>
+        </div>
+        <div class="map__map">
+
+
+        </div>
+    </div>
+</section>
+<!-- REPEAT SECTION - CALL- WORKER -->
+<section class="call-worker">
+        <div class="container">
+            <p>Бесплатный вызов замерщика</p>
+            <p>Наши специалисты свяжутся с вами в ближайшее время</p>
+            <form action="">
+                <input type="text" placeholder="Как Вас зовут?"><input type="text" placeholder="+7 (ХХХ) - ХХ - ХХ"><input type="text" placeholder="Адрес">
+            </form>
+            <button>Вызвать</button>
+            <p>Нажимая кнопку, вы соглашаетесь с условиями Политики конфиденциальности</p>
+        </div>
+    </section>
+
+<footer class="footer">
+    <div class="container">
+        <div></div>
+        <div></div>
+        <div class="footer__wrapper">
+            <div>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
