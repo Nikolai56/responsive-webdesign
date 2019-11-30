@@ -1,0 +1,66 @@
+.products 
+   &__elem
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      max-height: 280px
+      max-width: 280px
+      padding: 30px 30px
+      margin: 15px 0
+      border: 2px solid #efefef
+      border-radius: 10px
+      font-weight: bold
+      font-size: 20px
+      line-height: 24px
+      text-decoration: none
+      color: $black
+      img
+         padding-bottom: 16px
+      &:hover
+         border: 2px solid $yellow
+         cursor: pointer         
+
+@media (max-width: 991px)
+
+   .products
+      &__elem
+         font-size: 1em
+         margin: 0         
+      .row
+         div
+            padding: 5px
+
+@media (max-width: 767px)
+   
+   .products
+      &__elem
+         display: block
+         height: auto
+         min-width: 100%
+         padding: 5px
+         font-size: 1.45em
+         img
+            padding: 0 10px 0 0
+            width: 60px            
+            height: 64px
+
+@media (max-width: 575px)
+   
+   .products
+      .row
+         div
+            padding: 1px
+      &__elem
+         min-width: 80%
+         max-width: 80%
+         font-size: 18px
+         margin: 0 auto
+         img
+            max-height: 40px
+            max-width: 40px
+
+
+
+
+      

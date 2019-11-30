@@ -1,0 +1,64 @@
+.call-measure
+   margin-bottom: 30px
+   top: -4px
+   color: $white
+   position: relative
+   background: $blue url(../img/measure2.png) right center no-repeat
+   background-position-x: 75%
+   
+   &__free
+      padding: 56px 0 5px
+      font-size: 30px
+      line-height: 43px
+      text-transform: uppercase 
+
+   &__spec
+      padding-bottom: 29px
+      font-size: 14px
+      line-height: 17px
+
+   &__policy
+      margin-top: 18px
+      text-align: left
+      font-size: 12px
+      line-height: 17px
+      padding-bottom: 69px
+
+   &__policy-link
+      color: $yellow
+      text-decoration: underline
+      &:hover
+         text-decoration: none
+         cursor: pointer
+   form
+      display: flex
+      justify-content: flex-start
+      flex-direction: row
+      input
+         width: 25%
+         margin-right: 1%  
+      button
+         width: 25%
+
+@media (max-width: 991px)
+   .call-measure
+      input, button
+         font-size: 1em
+         padding: 0
+         text-align: center
+
+@media (max-width: 575px)
+   .call-measure
+      margin-top: 38px
+      margin-bottom: 0
+      background: none
+      h2, p, input, a
+         display: none
+      form
+         min-width: 100%
+      button
+         min-width: 100%
+         display: flex
+         justify-content: center
+         span
+            display: inherit

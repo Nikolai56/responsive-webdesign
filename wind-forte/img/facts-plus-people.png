@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/pretty-checkbox.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="sass/style.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="shortcut icon" href="img/favicon/favicon.png" type="image/x-icon">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">      
+
+    <a href="#!">
+        
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </a>
+
+    <a href="tel:+78124456730">
+        
+        <span>+7&nbsp;(812)&nbsp;445&nbsp;67&nbsp;30</span>
+        <p>ежедневно с&nbsp;9.00&nbsp;до&nbsp;21.00</p>
+    </a>
+
+    <a href="#!">Калькулятор</a>
+    <a href="#!">Личный&nbsp;кабинет</a>
+
+</header>
+
+<nav class="menu">
+    <a href="#!" class="menu_link">Продукция</a>
+    <a href="#!" class="menu_link">Услуги</a>
+    <a href="#!" class="menu_link">Оплата&nbsp;и&nbsp;цены</a>
+    <a href="#!" class="menu_link">Акции</a>
+    <a href="#!" class="menu_link">О&nbsp;компании</a>
+    <a href="#!" class="menu_link">Для&nbsp;дилеров</a>
+    <a href="#!" class="menu_link">Контакты</a>
+</nav>
+
+<!-- PROMO -->
+<section class="promo carousel">
+
+    <div class="carousel__inner">
+        <div><img alt="" src="img/banner.jpg" alt="slide"></div>
+        <div><img alt="" src="img/banner2.jpg" alt="slide"></div>
+        <div><img alt="" src="img/banner3.jpg" alt="slide"></div>
+    </div>
+    
+    <div class="promo__left">       
+        <a href="#!" class="promo__protect">Защитите<br>своих детей</a>      
+        <a href="#!" class="promo__misc">Аксессуары для детской<br> безопасности</a>       
+    </div>
+
+    <form class="promo__card" action="#">
+
+        <h3 class="promo__card-free">
+            Бесплатный вызов замерщика</h3>
+
+        <span>Наши специалисты свяжутся с вами в ближайшее время</span>
+
+        <input type="name" required placeholder="Ваше имя">
+        <input type="phone" required placeholder="Ваш телефон">
+        <input type="address" required placeholder="Адрес">
+
+        <button class="button_submit">Вызвать<span>&nbsp;замерщика</span></button>
+        <button class="button_calc"><img alt="" src="img/calculator.png" alt="">Калькулятор</button>
+        
+        <span>Нажимая на кнопку выше, Вы соглашаетесь с условиями 
+        <a href="#!">Политики конфиденциальности.</a></span>
+
+    </form>
+
+</section>
+
+<!-- PRODUCTS -->
+<section class="products">
+    <p class="heading">Наша продукция</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-xs-12"><a href="#!" class="products__elem"><img alt="" src="img/Okna.png">Пластиковые&nbsp;окна</a></div>
+            <div class="col-md-3 col-xs-12"><a class="products__elem"><img alt="" src="img/Dveri.png">Пластиковые&nbsp;двери</a></div>
+            <div class="col-md-3 col-xs-12"><a class="products__elem"><img alt="" src="img/Zaluzi-1.png">Жалюзи</a></div>
+            <div class="col-md-3 col-xs-12"><a class="products__elem"><img alt="" src="img/Rolety.png">Роллеты</a></div>
+        </div> 
+
+        <div class="row">    
+            <div class="col-md-3 col-xs-12"><a class="products__elem"><img alt="" src="img/Steklopaket.png">Стеклопакеты</a></div>
+            <div class="col-md-3 col-xs-12"><a class="products__elem"><img alt="" src="img/Osteklenie_lodziy.png">Остекление&nbsp;лоджий</a></div>
+            <div class="col-md-3 col-xs-12"><a class="products__elem"><img alt="" src="img/Lodziy-1.png">Утепление&nbsp;лоджий</a></div>
+            <div class="col-md-3 col-xs-12"><a class="products__elem"><img alt="" src="img/potolok_1-1.png">Натяжные&nbsp;потолки</a></div>
+        </div>
+        
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<h2 class="heading">Наши проекты</h2>
+
+<section class="projects">            
+    
+    <div class="projects__menu">
+        <a href="#!" class="menu_link active"><span>Окна</span></a>
+        <a href="#!" class="menu_link"><span>Двери</span></a>
+        <a href="#!" class="menu_link"><span>Жалюзи</span></a>
+        <a href="#!" class="menu_link"><span>Роллеты</span></a>
+        <a href="#!" class="menu_link"><span>Стеклопакеты</span></a>
+        <a href="#!" class="menu_link"><span>Остекление&nbsp;лоджий</span></a>
+        <a href="#!" class="menu_link"><span>Утепление&nbsp;лоджий</span></a>
+        <a href="#!" class="menu_link"><span>Натяжные&nbsp;потолки</span></a>
+    </div>
+    
+    <div class="projects__slider carousel">
+    
+        <div class="carousel__inner">
+            <div><img alt="" src="img/Aluminium-awning-windows.jpg" alt="slide"></div>
+            <div><img alt="" src="img/Aluminium-awning-windows.jpg" alt="slide"></div>
+            <div><img alt="" src="img/Aluminium-awning-windows.jpg" alt="slide"></div>
+        </div>
+
+    </div>
+
+    <div class="projects__works">
+
+        
+        <h3 class="heading_md-blue">Выполненные работы</h3>      
+               
+
+        <div>Демонтаж старых окон</div>
+        <div>Установка пластиковых
+            окон Forte 58, 3 камеры,
+            ширина 58</div>
+        <div>Установка подоконников</div>
+        <div>Отделка откосов</div>
+       
+        <div class="projects__works_totals">Итого:<span> 58350₽</span></div>
+             
+
+    </div>
+    
+</section>
+
+<section class="projects">
+
+    <div class="projects__comments">        
+    
+        <img alt="" src="img/camera-banner7-img3.jpg">
+        <div class="projects__comments-spacer"></div>
+    
+        <div class="projects__comment">
+
+            Спасибо большое впервую очередь бригаде № 4 Прохорову Андрею за отлично выполненую работу. Сделано все аккуратно, професионально. И спасибо всему коллективу фирмы окна Форте. Спасибо девушкам менеджерам очень приятные, доброжелательные.
+            <p>Наталья</p>                  
+
+            <div class="projects__comment-quote"></div>
+            
+        </div>
+                
+    </div>
+
+</section>
+
+<!-- CALC -->
+<section class="calc">
+    <div class="container">
+        <h2 class="heading bg-grey">Узнайте стоимость работ</h2>
+
+        <div class="row">
+
+            <div class="calc__left">
+
+                <h3 class="heading_md-blue">Выберите тип продукции</h3>
+
+                <form class="form" action="!#">
+                    <select name="Тип продукции" id="">
+                        <option value="Окна">Окна</option>
+                        <option value="Двери">Двери</option>
+                        <option value="Жалюзи">Жалюзи</option>
+                        <option value="Роллеты">Роллеты</option>
+                        <option value="Натяжные потолки">Натяжные потолки</option>
+                    </select>
+                </form>
+                
+                <img alt="" src="img/wind-sm-1.png">
+                <img alt="" src="img/wind-sm-2.png">
+                <img alt="" src="img/wind-sm-3.png">
+                <img alt="" class="calc__left_erker" src="img/wind-sm-4.png">
+                
+                <p class="heading_md-blue">Характеристики</p>
+
+                <div class="calc__specs-wrap">
+                    <div class="calc__specs-name">
+                        Тип профиля<br>
+                        Ширина&nbsp;подоконника<br>
+                        Ширина&nbsp;отлива
+                    </div>
+
+                    <form class="calc__specs-value" action="!#">
+                        <select size="1">
+                            <option value="Forte_58">Forte 58</option><option value="Forte_70">Forte 70</option><option value="Ivaper_62">Ivaper 62</option><option value="Ivaper_70">Ivaper 70</option><option value="Ivaper_74">Ivaper 74</option>
+                        </select>
+
+                        <select size="1">
+                            <option value="none">Нет</option><option value="w150">150мм</option><option value="w200">200мм</option><option value="w250">250мм</option><option value="w300">300мм</option><option value="w350">350мм</option><option value="w400">400мм</option><option value="w450">450мм</option><option value="w500">500мм</option><option value="w550">550мм</option><option value="w600">600мм</option>
+                        </select>
+
+                        <select size="1">
+                            <option value="none">Нет</option><option value="w0_100">менее 100мм</option><option value="w100_150">100-150мм</option><option value="w150_200">150-200мм</option><option value="w200_250">200-250мм</option><option value="w250_400">250-400мм</option>
+                        </select>
+                    </form>
+                </div>                
+                
+                <div class="calc__checkbox">
+
+                    <div class="pretty p-default p-curve">
+                        <input type="checkbox" />
+                        <div class="state p-warning">
+                            <label>Монтаж</label>
+                        </div>
+                    </div>
+
+                    <div class="pretty p-default p-curve">
+                        <input type="checkbox" />
+                        <div class="state p-warning">
+                            <label>Отделка откоса</label>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="calc__right">
+                <h3 class="heading_md-blue">Задайте параметры</h3>
+                Нажмите на створку для выбора типа открывания
+
+                <div class="calc__wind-wrap">
+
+                    <div class="calc__wind-elem">
+                        <img alt="" src="img/windows-sharper.png"><span>Поворотная<br>вправо</span><p>Поворотно-<br>откидная левая</p>
+                        <form class="calc__wind-wrap" action="!#">
+                            <input class="calc__wind-width" type="text" placeholder="1500" />                
+                        </form>
+                        <form class="calc__wind-height_wrap" action="!#">
+                            <input class="calc__wind-height" type="text" placeholder="1500" />
+                        </form>
+                    </div>
+
+                </div>
+                <div class="calc__wind-wrap">
+                    <button class="button">Добавить в заказ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- FACTS -->
+
+
+<section class="facts container">  
+    <h2 class="heading">Факты о компании</h2>
+    <p class="facts__paragraph">За более чем два десятилетия успешной работы, Forte из небольшой компании сумела стать одним из крупных оконных предприятий. Уже много лет мы занимаем лидирующее положение на рынке светопрозрачных конструкций Санкт-Петербурга и работаем во всех его сегментах. </p>
+    
+    <div class="facts__counter">
+        <p>Сегодня</p>
+        <ul class="facts__counter-ul">
+            <input type="text" placeholder="1">
+            <input type="text" placeholder="2">
+            <input type="text" placeholder="3">
+            <input type="text" placeholder="4">
+            <input type="text" placeholder="5">
+            <input type="text" placeholder="6">
+            <input type="text" placeholder="7">
+        </ul>
+        <p>завершенных проектов</p>
+    </div>
+
+    
+    <div class="row facts__numbers">
+
+        <div class="facts__numbers-item">
+            <span>23
+                <p>
+                лет на рынке светопрозрачных конструкций
+                </p>
+                <img alt="" src="img/facts-plus-calc.png" alt="">
+            </span>
+        </div>
+
+        <div class="facts__numbers-item">
+            <span>6
+                <p>
+                точек продаж в Санкт-Петербурге
+                <img alt="" src="img/svg/facts-map.svg" alt="">
+                </p>
+            </span>
+        </div>
+
+        <div class="facts__numbers-item">
+            <span>250
+                <p>
+                    квалифицированных сотрудников
+                    <img alt="" src="./img/facts-plus-people.png" alt="">
+                </p>
+            </span>
+        </div>
+
+    </div>
+
+    <h3>Компания Forte входит в «Топ-20» лучших оконных компаний России:</h3>
+    
+    <div class="facts__medals">
+
+        <div class="facts__medals-box">
+            <div>
+                <img alt="" src="img/facts_ntv.png" alt="">
+                
+            </div>
+            <div><h3>Мы стали постоянными участниками телепередачи «Квартирный вопрос»</h3></div>
+            
+        </div>    
+
+        <div class="facts__medals-box">
+            <div>
+                <img alt="" src="img/facts_100-medal.png" alt="">
+                
+            </div>
+            <div><h3> Наша компания дважды признана лучшим предприятием стройиндустрии</h3></div>
+        </div>
+
+    </div>
+
+    <h3>Компания Forte является одним изведущих партнеров  строительных компаний г. Санкт-Петербурга:</h3>
+    
+    <div class="facts__partners">
+        <div>
+            <img alt="" src="img/partners_setlcity.png" alt="">  
+            <img alt="" src="img/partners_otdelstroy.png" alt="">
+
+        </div>
+        <div>
+            <img alt="" src="img/partners_legenda.png" alt="">
+            <img alt="" src="img/partners_glavstroy.png" alt="">
+            <img alt="" src="img/partners_ips.png" alt="">
+        </div>
+
+    </div>
+
+    <p class="heading_facts">Мы остеклили крупнейшие жилые комплексы Санкт-Петербурга и Ленинградской области:</p>
+
+    <ul class="facts__gallery">
+        <li>      
+            <span>ЖК «Северная долина»</span>
+        </li>
+        <li>  
+            <span>ЖК «Чистое небо»</span>
+        </li>
+    </ul>
+    <ul class="facts__gallery gallery_2">
+        <li>  
+            <span>ЖК «Семь столиц. Лондон»</span>
+        </li> 
+        <li>  
+            <span>ЖК «Легенда Комендантского»</span>
+        </li> 
+    </ul>
+
+</section>
+
+
+
+<section class="call-measure">
+    <div class="container">
+        <h2 class="call-measure__free">
+            Бесплатный вызов замерщика</h2>
+        <p class="call-measure__spec">
+            Наши специалисты свяжутся с вамив ближайшее время</p>  
+        <form class="" action="#">
+    
+            
+            <input type="name" required placeholder="Ф.И.О." type="text">
+            <input type="phone" required placeholder="Ваш телефон">
+            <input type="address" required placeholder="Ваш адрес">
+
+            <button class="button_submit">Вызвать<span>&nbsp;замерщика</span></button>                        
+
+        </form>
+
+        <p class="call-measure__policy">
+            Нажимая кнопку, вы соглашаетесь с условиями
+            <a class="call-measure__policy-link">Политики конфиденциальности</a>
+        </p>
+
+    </div>
+</section>
+
+<div class="container">
+
+    <h2 class="heading">Наши специалисты</h2>
+    <section class="team">           
+            
+        <div>
+            <img alt="" src="img/team-1.jpg" alt="">
+            <img alt="" src="img/15-years_icon.png" alt="">
+            <span>
+                <h3>Олег Галченко</h3>
+                Монтажник
+            </span>
+        </div>
+
+        <div>
+            <img alt="" src="img/team-2.jpg" alt="">
+            <img alt="" src="img/15-years_icon.png" alt="">
+            <span>
+                <h3>Петр Иванченко</h3>
+                Ведущий специалист
+            </span>
+        </div>
+
+        <div>
+            <img alt="" src="img/team-3.jpg" alt="">
+            <img alt="" src="img/15-years_icon.png" alt="">
+            <span>
+                <h3>Илья Ильяченко</h3>
+                Инженер
+            </span>
+        </div>        
+    </section>
+
+    <h2 class="heading">Наши преимущества</h2>
+
+    <section class="adv row">
+
+        <a href="#!" class="col-sm-4">
+            <img src="" alt="">
+            <h4>Собственное производство</h4>
+            <p>Предлагаем качественную продукцию напрямую от производителя</p>
+        </a>
+        <a href="#!" class="col-sm-4">
+            <img src="" alt="">
+            <h4>Цены от производителя</h4>
+            <p>Стоимость м2 окна от 2 000 руб</p>
+        </a>
+        <a href="#!" class="col-sm-4">
+            <img src="" alt="">
+            <h4>Нестандартные решения</h4>
+            <p>Привлекательные предложения на нетиповые окна</p>
+        </a>
+        <a href="#!" class="col-sm-4">
+            <img src="" alt="">
+            <h4>Розничные продажи</h4>
+            <p>Мы открыли собственную сеть розничных продаж</p>
+        </a>
+        
+        <a href="#!" class="col-sm-4">
+            <img src="" alt="">
+            <h4>Гарантийное обслуживание</h4>
+            <p>Не прекращаем поддержку после продажи и монтажа продукции</p>
+        </a>
+        
+        <a href="#!" class="col-sm-4">
+            <img src="" alt="">
+            <h4>Специальные предложения</h4>
+            <p>Уникальные цены для постоянных клиентов и заказчиков одного окна</p>
+        </a>            
+    
+    </section>
+</div>
+
+<p class="heading">Как нас найти</p>
+
+<section class="map">
+       
+    <div class="map__form">
+        <h3>Контакты</h3>
+        <a href="#!">Центральный офис<p>г. Санкт-Петербург,<br>ул. Глиняная, д. 19, к.1, лит. А</p></a>
+        <a href="#!">С 9:00 до 19:00<p>Выходной: Сб., Вс.</p></a>
+        <a href="tel:+78124456724">+7 (812) 445-67-24</a>
+        <a href="mailto:sales@okna-forte.ru">sales@okna-forte.ru</a>              
+    </div>
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d8000.683491144372!2d30.384630903202144!3d59.912711463447316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0LMuINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDRg9C7LiDQk9C70LjQvdGP0L3QsNGPLCDQtC4gMTksINC6LjEsINC70LjRgi4g0JA!5e0!3m2!1sru!2sru!4v1570434142151!5m2!1sru!2sru" width="100%" height="550" frameborder="0" style="border:0;" allowfullscreen="">
+    </iframe>    
+
+  </section>
+
+<section class="call-measure">
+    <div class="container">
+        <h2 class="call-measure__free">
+            Бесплатный вызов замерщика</h2>
+        <p class="call-measure__spec">
+            Наши специалисты свяжутся с вамив ближайшее время</p>  
+        <form class="" action="#">
+    
+            
+            <input type="name" required placeholder="Ф.И.О." type="text">
+            <input type="phone" required placeholder="Ваш телефон">
+            <input type="address" required placeholder="Ваш адрес">
+
+            <button class="button button_submit">Вызвать<span>&nbsp;замерщика</span></button>                        
+
+        </form>
+
+        <p class="call-measure__policy">
+            Нажимая кнопку, вы соглашаетесь с условиями
+            <a class="call-measure__policy-link">Политики конфиденциальности</a>
+        </p>
+
+    </div>
+</section>
+
+<!-- REPEAT SECTION - CALL- MEASURE -->
+
+<div class="container">
+    <section class="subfooter row">
+        <div class="col-sm-6 col-12">
+            В процессе создания качественных пластиковых окон, компания «Форте» применяет передовые технологии и материалы, что позволяет снижать стоимость готовых изделий и сохранять качество на должном уровне. Производственные мощности завода выполняют разнообразные заказы, применяя оконные профили FORTE и IVAPER.
+        </div>
+        <div class="col-sm-6 col-12">
+            Концепция построения современных пластиковых окон сводится к достижению компромисса между стоимостью и высоким качеством изделий. Компания «Форте» производит пластиковые окна любой сложности и масштабов. Конструкции выполняются, как в стандартном исполнении, так и по индивидуальному заказу.
+        </div>
+    </section>
+</div>
+
+
+<section class="footer">
+    <div class="container">
+        <div class="row">
+            <ul class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <li><h3>Продукция</h3></li>
+                <li>Пластиковые окна</li>
+                <li>Цветные окна</li>
+                <li>Нестандартные окна</li>
+                <li>Окна GEALAN</li>
+                <li>Двери</li>
+                <li>Балконы и лоджии</li>
+                <li>Витражное остекление</li>
+                <li>Стеклопакеты</li>
+                <li>Натяжные потолки</li>
+                <li>Жалюзи</li>
+                <li>Защитные роллеты</li>
+                <li>Перегородки из ПВХ</li>                
+            </ul>    
+            <ul class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <li><h3>Услуги</h3></li>
+                <li>Ремонт пластиковых окон</li>
+                <li>Монтаж окон</li>
+                <li>Отделка откосов </li>
+                <li>Замена остекления</li>
+                <li>Остекление коттеджей</li>
+                <li>Отделка лоджий </li>
+                <li>Утепление лоджий</li>
+                <li>Вывоз мусора</li>
+                <li>Доставка окон</li>
+                <li>Вызов замерщика</li>
+                <li>Установка стеклопакетов</li>
+                <li>Тендерные заказы</li>
+            </ul>    
+            <ul class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <li><h3>Оплата и цены</h3></li>
+                <li>Цены на окна </li>
+                <li>Цены на двери</li>
+                <li> Цены от производителя </li>
+                <li>Способы оплаты </li>
+                <li>Оплата наличными </li>
+                <li>Рассрочка </li>
+                <li>Кредит</li>
+            </ul>    
+            <ul class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <li><h3>О компании</h3></li>
+                <li>История компании</li>
+                <li> Ответы и вопросы</li>
+                <li>Вакансии</li>
+                <li>Наша гарантия</li>
+                <li>Письмо директору</li>
+                <li>Наши партнеры</li>
+                <li>Новости компании</li>
+                <li>Сертификаты качества</li>
+                <li>Отзывы покупателей</li>
+                <li>Политика конфиденциальности</li>
+                <li>Реквизиты компании</li>
+                <li>Статьи</li>
+            </ul>    
+            <ul class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <li><h3>Для дилеров</h3></li>
+                <li>Сотрудничество с Форте</li>
+                <li>Спецпредложения</li>
+            </ul>    
+            <ul class="col-lg-2 col-md-3 col-sm-4 col-6">
+                <li><h3>Контакты</h3> </li>
+                <li>Наши дилеры </li>
+                <li>Офисы продаж </li>
+                <li>Быстрое сообщение </li>
+                <li>Служба ОТК завода</li>
+                <li>Мы в соц.сетях</li>
+                <li>VL INSTA</li>
+            </ul>
+        </div>
+        <form class="row" action="">    
+
+            <select class="footer__select" name="Продукция" id="!#">
+                <option value="Продукция">Продукция</option>
+                <option value="Пластиковые окна">Пластиковые окна</option>
+                <option value="Цветные окна">Цветные окна</option>
+                <option value="Нестандартные окна">Нестандартные окна</option>
+                <option value="Окна GEALAN">Окна GEALAN</option>
+                <option value="Двери">Двери</option>
+                <option value="Балконы и лоджии">Балконы и лоджии</option>
+                <option value="Витражное остекление">Витражное остекление</option>
+                <option value="Стеклопакеты">Стеклопакеты</option>
+                <option value="Натяжные потолки">Натяжные потолки</option>
+                <option value="Жалюзи">Жалюзи</option>
+                <option value="Защитные роллеты">Защитные роллеты</option>
+                <option value="Перегородки из ПВХ">Перегородки из ПВХ</option>           
+            </select>
+
+            <select class="footer__select" name="Услуги" id="!#">
+                <option value="Услуги">Услуги</option>
+                <option value="Ремонт пластиковых окон">Ремонт пластиковых окон</option>
+                <option value="Монтаж окон">Монтаж окон</option>
+                <option value="Отделка откосов">Отделка откосов</option>
+                <option value="Замена остекления">Замена остекления</option>
+                <option value="Остекление коттеджей">Остекление коттеджей</option>
+                <option value="Отделка лоджий">Отделка лоджий</option>
+                <option value="Утепление лоджий">Утепление лоджий</option>
+                <option value="Вывоз мусора">Вывоз мусора</option>
+                <option value="Доставка окон">Доставка окон</option>
+                <option value="Вызов замерщика">Вызов замерщика</option>
+                <option value="Установка стеклопакетов">Установка стеклопакетов</option>
+                <option value="Тендерные заказы">Тендерные заказы</option>         
+            </select>
+
+            <select class="footer__select" name="Оплата и цены" id="!#">
+                <option value="Оплата и цен">Оплата и цены</option>
+                <option value="Цены на окна">Цены на окна</option>
+                <option value="Цены на двери">Цены на двери</option>
+                <option value="Цены от производителя">Цены от производителя</option>
+                <option value="Способы оплаты">Способы оплаты</option>
+                <option value="Оплата наличными">Оплата наличными</option>
+                <option value="Рассрочка">Рассрочка </option>
+                <option value="Кредит">Кредит</option>
+            </select>    
+            <select class="footer__select" name="О компании" id="!#">
+                <option value="О компании">О компании</option>
+                <option value="История компании">История компании</option>
+                <option value="Ответы и вопросы"> Ответы и вопросы</option>
+                <option value="Вакансии">Вакансии</option>
+                <option value="Наша гарантия">Наша гарантия</option>
+                <option value="Письмо директору">Письмо директору</option>
+                <option value="Наши партнеры">Наши партнеры</option>
+                <option value="Новости компании">Новости компании</option>
+                <option value="Сертификаты качества">Сертификаты качества</option>
+                <option value="Отзывы покупателей">Отзывы покупателей</option>
+                <option value="Политика конфиденциальности">Политика конфиденциальности</option>
+                <option value="Реквизиты компании">Реквизиты компании</option>
+                <option value="Статьи">Статьи</option>
+            </select>
+
+            <select class="footer__select" value="Для дилеров" id="!#">
+                <option value="Для дилеров">Для дилеров</option>
+                <option value="Сотрудничество с Форте">Сотрудничество с Форте</option>
+                <option value="Спецпредложения">Спецпредложения</option>
+            </select>
+
+            <select class="footer__select" name="Контакты" id="!#">
+                <option value="Контакты">Контакты</option>
+                <option value="Наши дилеры">Наши дилеры</option>
+                <option value="Офисы продаж">Офисы продаж</option>
+                <option value="ыстрое сообщение">Быстрое сообщение</option>
+                <option value="Служба ОТК завода">Служба ОТК завода</option>
+            </select>
+        </form>           
+
+    </section>   
+</div>
+
+<section class="wind_line container">
+    <h2 class="heading">Окна под ключ от компании forte</h2>
+
+    <p>
+        Компания Forte производит пластиковые окна любой сложности и масштабов. Конструкции выполняются, как в стандартном исполнении, так и по индивидуальному заказу, с учетом всех пожеланий клиента.         
+    </p>
+
+    <div class="row">
+        <div class="col-sm-2 col-0"><img alt="" src="img/Razrez1_2.png"></div>
+        <div class="col-sm-7 col-12">
+            <h3>Классик <span>Ivaper grau</span></h3>
+            <ul><li>Больше света</li><li>Сохранение тепла</li><li>Шумоизоляция</li></ul>
+        </div>
+        <div class="col-sm-3 col-12"><h2>от&nbsp;6&nbsp;721&nbsp;₽</h2><button>Подробнее</button></div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2 col-0"><img alt="" src="img/Razrez1_2.png" alt=""></div>
+        <div class="col-sm-7 col-12">
+            <h3>Стандарт <span>Forte 58</span></h3>
+            <ul><li>Больше света</li><li>Сохранение тепла</li><li>Шумоизоляция</li></ul>
+        </div>
+        <div class="col-sm-3 col-12"><h2>от&nbsp;8&nbsp;722&nbsp;Р</h2><button>Подробнее</button></div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2 col-0"><img alt="" src="img/Razrez1_2.png" alt=""></div>
+        <div class="col-sm-7 col-12">
+            <h3>Стандарт+ <span>Forte 70</span></h3>
+            <ul><li>Больше света</li><li>Сохранение тепла</li><li>Шумоизоляция</li></ul>
+        </div>
+        <div class="col-sm-3 col-12"><h2>от&nbsp;9&nbsp;696&nbsp;Р</h2><button>Подробнее</button>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2 col-0"><img alt="" src="img/Razrez1_2.png" alt=""></div>
+        <div class="col-sm-7 col-12">
+            <h3>Премиум <span>Ivaper 74</span></h3>
+            <ul><li>Больше света</li><li>Сохранение тепла</li><li>Шумоизоляция</li></ul>
+        </div>
+        <div class="col-sm-3 col-12"><h2>от&nbsp;12&nbsp;893&nbsp;Р</h2><button>Подробнее</button></div>
+    </div>
+
+</section>
+
+<h2 class="heading">Сравнение профилей пластиковых окон</h2>
+
+<div>
+    <ul class="wind_compare"><li></li><li>Forte<br>&nbsp;58</li><li>Forte<br>&nbsp;70</li><li>Ivaper<br>&nbsp;62</li><li>Ivaper<br>&nbsp;70</li><li>Ivaper<br>&nbsp;74</li></ul>
+    <ul class="wind_compare"><li><span>Светопропускание</span></li><li></li><li></li><li></li><li></li><li></li></ul>
+    <ul class="wind_compare"><li><span>Теплосбережение</span></li><li></li><li></li><li></li><li></li><li></li></ul>
+    <ul class="wind_compare"><li><span>Шумоизоляция</span></li><li></li><li></li><li></li><li></li><li></li></ul>
+    <ul class="wind_compare"><li><span>Количество камер</span></li><li>3</li><li>3</li><li>5</li><li>5</li><li>5</li></ul>
+    <ul class="wind_compare"><li><span>Толщина профиля, мм</span></li><li>58</li><li>70</li><li>62</li><li>62</li><li>74</li></ul>
+    <ul class="wind_compare"><li><span>Толщина стеклопакета, мм</span></li><li>до 32</li><li>до 40</li><li>до 32</li><li>до 40</li><li>до 44</li></ul>
+    <ul class="wind_compare"><li><span>Фурнитура</span></li><li></li><li></li><li></li><li></li><li></li>
+    </ul>
+
+</div>
+
+<h2 class="heading">Дополнительные опции к нашим окнам</h2>
+
+<div class="border-wrapper">
+
+    <ul class="wind_opt">
+        <a href="#!">Обязательные<br> детали</a>
+        <a href="#!">Комфорт<br> использования</a>
+        <a href="#!">Безопасность</a>
+        <a href="#!">Шумозащита</a>
+        <a href="#!">Дизайн</a>
+    </ul>
+
+    <ul class="wind_opt">
+        <li>Конструкция современного пластикового окна состоит из соединенных между собой ряда деталей и механизмов в систему</li>
+        <li>Нашим клиентам мы предлагаем:</li>
+        <li>5 видов ручек</li>
+        <li>широкий выбор подоконников из разных материалов</li>
+        <li>водоотливы для окон</li>
+        <li><button>Подробнее</button></li>
+    </ul>
+
+</div>
+
+<section class="wind_repairs">
+    <div class="container">
+        <h2 class="heading">
+            Ремонт пластиковых окон
+        </h2>
+        <button>Подробнее</button>
+    </div>
+</section>
+
+<h2 class="heading">Комплекс работ по отделке и утеплению лоджий</h2>
+<ul class="log_service">
+    <li>
+        <div><h3>Освещение</h3>Может быть «навесное» или «встраиваемое» на Ваше усмотрение</div>
+        <div><h3>Отделка стен</h3>Отделка панелями ПВХ начинается с изготовления обрешетки, к которой в дальнейшем крепится отделочный материал — панели ПВХ. Мы предлагаем большой ассортимент стеновых панелей для финишной отделки балкона.</div>
+        <div><h3>Укладка напольного покрытия</h3>Обустраивается черновой пол.Сверху укладываются линолеум и плинтусы</div>
+    </li>
+    <li></li>
+    <li>
+        <div><h3>Монтаж потолков</h3>На смонтированную обрешётку (каркас) устанавливаются пластиковые панели или алюминиевый реечный потолок</div>
+        <div><h3>Отделка откосов</h3>Откосы со стороны балкона (лоджии) выполняют не только эстетическую функцию, но и защищают монтажный шов установленного окна</div>
+        <div><h3>Подоконники</h3>Подоконники, которыми мы комплектуем наши пластиковые окна, обладают улучшенными эксплутационными характеристиками</div>
+        <div><h3>Монтаж розеток, выключателей</h3>Мы осуществляем прокладку кабеля, при необходимости штробление и монтаж электроточек с дальнейшей установкой розеток и выключателей</div>
+    </li>
+</ul>
+
+<script src="libs/jquery/jquery.js"></script>
+<script src="libs/slick/slick.min.js"></script>
+<script src="js/script.js"></script>
+        
+</body>
+</html>

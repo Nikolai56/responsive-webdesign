@@ -1,0 +1,306 @@
+.facts
+   h3
+      max-width: 11%
+   br
+      display: none
+   line-height: 23px
+   text-align: center   
+   margin: 0 auto
+   padding-bottom: 20px   
+   &__paragraph
+      max-width: 75%
+      text-align: center
+      margin: 0 auto
+   &__counter
+      max-width: 60%
+      background-color: $blue
+      border-radius: 10px
+      color: white
+      font-size: 20px
+      line-height: 24px
+      margin: 42px auto 26px    
+      p
+         padding: 25px
+      input
+         width: 12%
+         height: 70px
+         font-size: 40px
+         font-weight: bold
+         border: 2px solid $yellow
+         border-radius: 5px
+         margin-right: 5px
+         &:last-child
+            margin-right: 0
+   &__counter-ul
+      display: flex
+      flex-direction: row
+      justify-content: center
+      margin: 0
+   &__numbers
+      padding-bottom: 67px
+      display: flex
+      &-item
+         position: relative
+         width: 33.333333%
+         height: 120px         
+         &:nth-child(1)
+            text-align: left
+            p
+               left: 85px
+            img
+               left: 115px
+               top: 2px
+
+         &:nth-child(2)
+            text-align: left
+            padding-right: 100px
+            p
+               left: 30px
+            img
+               left: 30px
+               top: -40px
+
+         &:nth-child(3)
+            text-align: left
+            p
+               left: 140px
+            img
+               left: 31px
+               top: -60px
+      span
+         font-weight: normal
+         font-size: 100px
+         line-height: 120px
+         text-align: left
+         color: $blue      
+      p
+         font-weight: normal
+         font-size: 16px
+         line-height: 19px
+         position: absolute
+         left: 85px
+         bottom: -10px
+         width: 141px
+         height: 57px
+         text-align: left
+         background: $white
+         padding: 2%
+      img
+         position: absolute
+            left: 100px
+            top: 0px
+
+   &__medals
+      margin: 80px 0 50px
+      display: flex
+      justify-content: center        
+      &-box       
+         border: 1px solid $border-gray
+         border-radius: 10px
+         display: flex
+         align-items: center
+         div
+            position: relative
+            width: 50%            
+            img
+               position: absolute
+               top: -130px
+               right: -64px
+               min-width: 120px
+               min-height: 128px
+            h3
+               position: absolute
+               top: 0
+               min-width: 240px
+               left: -120px
+         min-width: 49%
+         min-height: 150px
+         margin-right: 2%
+         &:last-child
+            margin-right: 0
+            div    
+               img
+                  right: -87px
+                  min-width: 173px
+                  min-height: 128px
+   &__partners 
+      margin: 33px auto 61px
+      display: flex
+      flex-wrap: wrap
+      justify-content: center
+      border: 1px solid $border-gray
+      border-radius: 10px
+      padding: 10px
+      div
+         img
+            margin: 0 3px 3px
+            display: inline
+
+   &__gallery      
+      margin: 46px 0 0
+      display: flex
+      justify-content: space-around
+      li
+         border-radius: 10px
+         position: relative
+         &:first-child
+            margin-right: 20px
+         width: 580px
+         height: 280px          
+         span
+            position: absolute
+            text-align: left
+            top: 80%
+            left: 10px
+            color: $white
+            font-size: 1.2em
+            line-height: 24px
+            background: url(../img/svg/facts_g-city_24px.svg) center center no-repeat
+            background-position-x: 0
+            background-position-y: 1px
+            padding-left: 25px            
+         &:nth-child(1)
+            background: linear-gradient(to bottom, rgba(59, 59, 59, 0), rgba(57, 57, 57, 0.8)), url(../img/facts_g-sevdol.png) center center no-repeat
+         &:nth-child(2)
+            background: linear-gradient(to bottom, rgba(59, 59, 59, 0), rgba(57, 57, 57, 0.8)), url(../img/facts_g-clearsky.png)
+      
+.gallery_2
+   margin-top: 20px
+   li
+      &:nth-child(1)
+         background: linear-gradient(to bottom, rgba(59, 59, 59, 0), rgba(57, 57, 57, 0.8)), url(../img/facts_g-london.jpg)
+      &:nth-child(2)
+         background: linear-gradient(to bottom, rgba(59, 59, 59, 0), rgba(57, 57, 57, 0.8)), url(../img/facts_g-legend.png)
+
+@media (max-width: 991px)
+   .facts
+      &__medals
+         width: auto
+      br
+         display: inline
+      &__counter
+         input
+            height: 60px
+
+
+@media (max-width: 767px)
+   .facts
+      &__paragraph
+         max-width: 100%
+         padding-top: 0
+      &__counter
+         max-width: 100%
+      &__numbers
+         flex-direction: column
+         align-items: center
+         justify-content: center
+         text-align: center
+      &__counter
+         input
+            height: 70px
+         &-item
+            width: 50%
+            &:nth-child(2)
+               padding-right: 5%
+            padding-right: 5%
+            &:first-child, &:nth-child(2), &:nth-child(3)
+               p
+                  width: 300px
+                  left: 0
+                  bottom: -30px
+               img
+                  left: 115px
+            &:first-child
+               img
+                  left: 75px
+                  top: 30px
+            &:nth-child(2)
+               img
+                  left: 50px
+                  top: -50px
+            span
+               font-size: 4em
+
+      &__gallery
+         flex-direction: column
+         padding: 46px 0 0
+         &:last-child
+            padding: 0            
+         margin: 0         
+         li
+            margin: 0 0 20px  
+            width: auto
+            height: 135px
+      &__gallery      
+         li
+            &:first-child
+               margin-right: 0
+
+@media (max-width: 575px)
+   .facts
+      h2
+         padding-top: 0
+      &__counter
+         input
+            height: 50px     
+      &__numbers
+         width: 50%
+         &-item
+            margin-right: 25%
+            margin-left: 20%
+
+      &__medals
+         margin: 20px 0 50px
+         display: flex
+         flex-direction: column
+         &-box
+            min-width: 100%
+            margin: 70px 0 0 0
+      &__partners
+         img
+            width: 46%
+
+      &__gallery
+         font-size: 0.85em
+      
+   .gallery_2
+      li
+         &:last-child
+            margin-bottom: 0
+
+@media (max-width: 380px)
+
+   .facts
+      &__counter
+         input
+            height: 50px
+         margin-bottom: 0
+         padding-bottom: 0
+
+      &__numbers
+         span
+            font-size: 40px
+         p
+            min-width: 250px
+            font-size: 14px
+         &-item
+            height: 130px
+            &:nth-child(1), &:nth-child(2), &:nth-child(3)
+               p
+                  left: 0
+                  bottom: 0
+               padding-right: 90%
+            &:nth-child(1)
+               img
+                  left: 50px
+                  top: 35px
+            &:nth-child(2)
+               img
+                  top: -33px
+            &:nth-child(3)
+               img
+                  top: -43px
+                  left: 76px
+            
+         margin-bottom: 0
+         padding-bottom: 0

@@ -1,0 +1,301 @@
+.projects
+   display: flex
+   padding: 0 2%
+   max-width: 1140px
+   margin: 0 auto
+   &__menu
+      display: flex
+      flex-direction: column
+      height: 365px
+      min-width: 200px
+      width: 25%
+      a
+         display: block
+         height: 52px
+         padding: 7.5% 0 7.5% 50px
+   &__slider
+      position: relative
+      background: url(../img/Aluminium-awning-windows.jpg) top left no-repeat
+      width: 50%
+   &__comments
+      background: white
+      padding-top: 25px
+      display: flex
+      width: 100%
+      img
+         width: 121px
+         height: 121px
+         border-radius: 50%
+         border: 2px solid $yellow
+      &-spacer
+         padding-left: 26px
+         position: relative
+   // &::after
+   //    content: ''
+   //    background: url(../img/comment_angle.png) no-repeat
+   &__comment
+      position: relative
+      font-size: 14px
+      line-height: 20px
+      padding: 1.5% 1% 1% 5%
+      border: 1px solid #c1c1c1
+      border-radius: 10px
+      margin-bottom: 70px
+      &-quote
+         background: url(../img/svg/quote.svg) no-repeat
+         background-color: $white
+         position: absolute
+         display: flex
+         height: 38px
+         width: 48px
+         right: 50px
+         top: 90%
+      p
+         font-weight: bold
+         font-size: 16px
+         padding: 0 0 2% 0
+         color: $blue
+
+.projects
+   &__menu
+      a
+         &:nth-child(1)
+            background: url(../img/Okna.png) left (center/contain) no-repeat
+         &:nth-child(2)
+            background: url(../img/Dveri.png) left (center/contain) no-repeat
+         &:nth-child(3)
+            background: url(../img/Zaluzi-1.png) left (center/contain) no-repeat
+         &:nth-child(4)
+            background: url(../img/Rolety.png) left (center/contain) no-repeat
+         &:nth-child(5)
+            background: url(../img/Steklopaket.png) left (center/contain) no-repeat
+            display: none
+         &:nth-child(6)
+            background: url(../img/Osteklenie_lodziy.png) left (center/contain) no-repeat
+         &:nth-child(7)
+            background: url(../img/Lodziy-1.png) left (center/contain) no-repeat
+         &:nth-child(8)
+            background: url(../img/potolok_1-1.png) left (center/contain) no-repeat
+         background-size: 50px
+         font-size: 17px
+         line-height: 20px
+         font-weight: bold
+         color: $black
+         text-decoration: underline
+         text-decoration-style: dotted
+         text-underline-position: under
+         &::before
+            transition: 0.25s all
+            content: ''
+            opacity: 0
+            width: 0
+            bottom: -2px
+            border-bottom: 2px solid $yellow
+            position: absolute
+
+         &.active
+            position: relative
+            border-bottom: 2px solid $yellow
+         position: relative
+         &:hover
+            cursor: pointer
+            &::before
+               content: ''
+               opacity: 1
+               width: 100%
+               bottom: -2px
+               position: absolute
+
+   &__works
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      width: 25%
+      height: 365px
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, .85)), url(../img/replacement-windows.jpg) center (center/cover) no-repeat
+      div
+         font-size: 16px
+         line-height: 23px
+         font-weight: bold
+         padding: 0 10px 1% calc(30px + 5%)
+         text-align: left
+         position: relative
+         &:first-child, &:last-child            
+            &:before
+               display: none
+         &:before
+            content: ''
+            display: block
+            height: 2px
+            width: 26px
+            color: $yellow
+            background-color: $yellow
+            position: absolute
+            left: 3%
+            top: 10px
+            transform: rotate(180deg)
+         &:last-child
+            height: 25%
+         h3
+            padding-left: 0
+            padding-bottom: 0
+            padding-right: 10px
+            font-weight: bold
+            font-size: 20px
+      &_totals
+         text-transform: uppercase
+         font-size: 16px
+         color: $yellow
+         background-color: $blue
+         padding: 14px 16px 15px calc(30px + 5%)
+         span
+            color: white
+            font-size: 25px
+         &::before
+            width: 0
+
+@media (max-width: 991px)
+   .projects
+      &__menu
+         a
+            font-size: 15px
+            margin-bottom: 0
+      &__works
+         li
+            font-size: 16px
+            h3
+               font-size: 16px
+               font-weight: bold
+         div
+            font-size: 13px
+            span
+               font-size: 20px
+
+@media (max-width: 767px)
+   .projects
+      &__menu
+         max-width: 50px
+         min-width: 50px
+         a
+            span
+               display: none
+      &__slider
+         width: 60%
+      &__works
+         width: 40%
+
+@media (max-width: 480px)
+   .projects
+      flex-wrap: wrap
+      &__menu
+         min-width: 100%
+         flex-direction: row
+         flex-wrap: wrap
+         justify-content: center
+         height: auto
+         padding-bottom: 10px
+         a
+            padding: 0
+            margin-right: 10px
+            color: $blue
+            &:last-child
+               margin-right: 0
+            height: auto
+
+            &:nth-last-child(1),&:nth-last-child(2),&:nth-last-child(3),&:nth-last-child(4),&:nth-last-child(5),&:nth-last-child(6),&:nth-last-child(7),&:nth-last-child(8)
+               background: none
+               width: auto
+            span
+               display: inherit
+      &__slider
+         width: 100%
+         .arrows
+            &__left
+               left: 0
+               top: calc(50% - 25px)
+            &__right
+               left: calc(100% - 50px)
+               top: calc(50% - 25px)
+      &__works
+         width: 100%
+         height: 220px
+         h3
+            padding-top: 16px
+      &__comments
+         display: none
+
+// @media (max-width: 767px)
+
+//    .projects
+//       flex-wrap: wrap
+//       padding: 0 20px
+//       &__menu
+//          min-width: 100%
+//          flex-direction: row
+//          justify-content: space-between
+//          flex-wrap: wrap
+//          height: auto
+//          a
+//             color: $blue
+//             font-size: 19px
+//             line-height: 30px
+//             height: auto
+//             padding: 0
+//             margin: 19px
+//             &:nth-child(1),&:nth-child(2),&:nth-child(3),&:nth-child(4),&:nth-child(5),&:nth-child(6),&:nth-child(7),&:nth-child(8)
+//                background: none
+//             &:nth-child(5)
+//                display: block
+//       &__slider
+//          width: 60%
+//       &__works
+//          width: 40%
+
+// @media (max-width: 693px)
+
+//    .projects
+//       &__menu
+//          a
+//             font-size: 16px
+//             margin-right: 15px
+
+
+
+
+// @media (max-width: 575px)
+
+//    .projects
+//       &__comments
+//          display: none
+
+
+//       &__slider
+//          background: url(../img/Aluminium-awning-windows.jpg) center (center) no-repeat
+
+//       &__wrap
+//          background: none
+
+
+//       &__list-item
+//          &:first-child
+//             padding: 0
+//          &:last-child
+//             border-radius: 10px
+
+
+
+// img/svg/chevron_right_24px.svg
+
+
+//    .projects
+//       &__slider
+
+//          width: 50%
+
+//       &__works
+//          width: 50%
+//       h3
+//          padding-left: calc(5% + 30px)
+//       li
+//          padding: 0 0 19px calc(30px + 5%)
+//       div

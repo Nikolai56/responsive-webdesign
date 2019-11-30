@@ -1,0 +1,132 @@
+.promo
+   position: relative
+   background-color: #efefef   
+   display: flex
+   justify-content: space-between
+   height: 550px 
+   &__protect
+      display: block
+      padding-left: 10%
+      color: $blue
+      font-weight: bold
+      font-size: 48px
+      line-height: 63px
+      text-transform: uppercase
+      position: absolute
+      top: 15%
+      left: 0
+      max-width: 15%
+   &__misc
+      background: url(../../img/promo__left-misc_arr.png) no-repeat left top
+      margin-left: 10%
+      padding-left: 25px
+      text-align: left
+      font-weight: bold
+      font-size: 17px
+      line-height: 20px
+      text-decoration: none
+      color: $black
+      position: absolute
+      top: 60%
+      left: 0
+      max-width: 37%
+      &:hover
+         color: $blue
+
+   &__card
+      position: absolute
+      right: 2%
+      bottom: 5%      
+      width: 50%
+      max-width: 300px
+      height: 477px
+      border-radius: 20px
+      color: $white
+      background-color: $blue
+      padding: 3% 3% 5%
+      font-size: 13px
+      line-height: 17px
+      text-align: center
+      button
+         max-width: 100%
+         margin: 10px 0
+      input
+         max-width: 100%
+         margin-top: 10px
+         height: 50px
+         color: $blue
+         background-color: $white
+         font-size: 16px
+         border: none
+         font-weight: normal
+      h3
+         padding-bottom: 10px
+      &-free
+         font-size: 1.5em
+         line-height: 1.2em
+         text-transform: uppercase
+         text-align: center
+         padding-bottom: 20px
+      a
+         color: $yellow
+         text-decoration: underline
+         &:hover
+            text-decoration: none
+            cursor: pointer
+   .button_calc
+      display: none
+       
+@media (max-width: 767px)
+   .promo__protect
+      font-size: 38px
+      font-weight: bold
+      line-height: 40px
+       
+@media (max-width: 575px)
+   .promo
+      height: calc(204px + 138.38px)
+      flex-direction: column
+      justify-content: flex-end      
+      &__card
+         p, input, &-policy
+            display: none
+         min-width: 100%
+         height: auto
+         border-radius: 0
+         margin: 0
+         padding: 2% calc(10% + 5px)
+         bottom: 0
+         right: 0
+         button
+            width: 100%
+            margin: 5px 0
+            display: flex
+            justify-content: center
+            span
+               display: inherit
+         .button_calc
+            display: block
+            background: $white
+            img
+               padding-right: 5px
+               padding-bottom: 2px
+      .arrows
+         &__left
+            left: 0
+            top: 76px
+         &__right
+            left: calc(100% - 50px)
+            top: 76px
+      &__protect
+         font-size: 2em
+         line-height: 1.2em
+         top: 10%
+         left: 12%
+      &__misc
+         font-size: .9em
+         line-height: 1em
+         top: 45%
+         left: 12%
+   .promo
+       span, h3
+         display: none
