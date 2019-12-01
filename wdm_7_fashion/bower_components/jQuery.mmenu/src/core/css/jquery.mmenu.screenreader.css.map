@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAyBA,AAAA,UAAU,AACV,CACC,MAAM,CAAE,YAAY,CACpB,IAAI,CAAE,wBAAwB,CAAC,UAAU,CACzC,SAAS,CAAE,UAAU,CAAC,UAAU,CAChC,WAAW,CAAE,iBAAiB,CAC9B,KAAK,CAAE,cAAc,CACrB,MAAM,CAAE,cAAc,CACtB,OAAO,CAAE,YAAY,CACrB,QAAQ,CAAE,iBAAiB,CAC3B,QAAQ,CAAE,mBAAmB,CAC7B",
-    "sources": [
-        "../screenreader/jquery.mmenu.screenreader.scss"
-    ],
-    "names": [],
-    "file": "jquery.mmenu.screenreader.css"
-}
